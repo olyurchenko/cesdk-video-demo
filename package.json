@@ -1,0 +1,14 @@
+{
+  "name": "cesdk-video-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Демо: експорт відео з CE.SDK через нативні Node-біндінги",
+  "scripts": {
+    "inspect": "node src/inspect-scene.mjs",
+    "export": "node src/export-video.mjs"
+  },
+  "dependencies": {
+    "@cesdk/node-native": "1.83.0"
+  }
+}
